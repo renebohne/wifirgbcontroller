@@ -1,6 +1,18 @@
 # wifirgbcontroller
 This software controls the HF-LPB100-1 based wifi rgb led strip controller that comes with MagicHome Wifi
 
+This is the wifi chip: HF-LPB100-1
+https://gridconnect.box.com/shared/static/pddbk7obfl47qsftspco.pdf
+
+The device creates a wifi AP and can be accessed on this IP address: http://10.10.123.3/
+on port 80, we are asked for username and password.
+
+
+TCP port is probably 5577.
+
+This might help: https://github.com/herrmannj/wifilight/blob/master/FHEM/32_WifiLight.pm
+Or this might help: https://github.com/jikelmon/UFOLEDController/tree/master/UFOLEDController
+
 I hope that this product uses this protocol:
 
 /* Every Command ist encoded via WireShark in Hex, you can convert them to int and add them to a byte array to send them.
