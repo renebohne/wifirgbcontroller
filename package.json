@@ -1,0 +1,22 @@
+{
+  "name": "wifirgbcontroller",
+  "version": "1.0.0",
+  "description": "This software controls the HF-LPB100-1 based wifi rgb led strip controller that comes with MagicHome Wifi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renebohne/wifirgbcontroller.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renebohne/wifirgbcontroller/issues"
+  },
+  "homepage": "https://github.com/renebohne/wifirgbcontroller#readme",
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}
